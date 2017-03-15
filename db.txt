@@ -1,0 +1,15 @@
+CREATE TABLE student (
+    id        integer PRIMARY KEY,
+    name       varchar(30) NOT NULL,
+    birthdate  varchar(30) NOT NULL,
+    address  varchar(30) NOT NULL);
+
+CREATE TABLE course(
+    id       integer PRIMARY KEY,
+    name     varchar(30) NOT NULL,
+    teacher  varchar(30) NOT NULL,
+    studyyear integer);
+
+CREATE TABLE course(
+    name     varchar(30) NOT NULL,
+    course   varchar(30) NOT NULL);
